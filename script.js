@@ -1,6 +1,7 @@
 const navbar = document.querySelector("#navbar")
 var nav_is_opened = false;
 
+document.body.onclick = () => window.open("https://dayson9.github.io/NewPortfolio", "_blank")
 
 $(document).ready(()=>{
 const nav= $("#navbar");
