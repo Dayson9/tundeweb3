@@ -1,7 +1,5 @@
 const navbar = document.querySelector("#navbar")
-var nav_is_opened = false;
-
-document.body.onclick = () => window.open("https://tundeweb3.onrender.com", "_blank")
+var nav_is_opened = false; 
 
 $(document).ready(()=>{
 const nav= $("#navbar");
